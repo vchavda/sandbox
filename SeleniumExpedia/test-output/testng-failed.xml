@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <parameter name="appURL" value="https://www.expedia.co.uk/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Expedia test(failed)">
+    <classes>
+      <class name="HolidaySearchTest">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- HolidaySearchTest -->
+    </classes>
+  </test> <!-- Expedia test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
